@@ -1,17 +1,36 @@
 /* Example: widen content */
 .wy-nav-content {
-  max-width: 1200px;
+  max-width: 1000px;
 }
 
-/* Example: tweak code block font size */
-.rst-content pre code {
-  font-size: 0.9em;
+.wy-side-nav-search a
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+  
+  font-size: 1.25em;
+
+  &::before
+  {
+    display: block;
+    height: 2rem;
+    width: 2rem;
+    background-image: url(moon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    image-rendering: pixelated;  
+  }
 }
 
-.ethical-rtd {
-    display: none;
+.wy-nav-side
+{
+  padding-bottom: 0 !important
 }
 
-a.icon-home::before {
-  content: url("_static/moon.png") !important
+.ethical-rtd
+{
+  display: none; /* Remove adverts */
 }
