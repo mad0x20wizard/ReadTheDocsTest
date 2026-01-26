@@ -1,0 +1,13 @@
+/* Example: widen content */
+.wy-nav-content {
+  max-width: 1200px;
+}
+
+/* Example: tweak code block font size */
+.rst-content pre code {
+  font-size: 0.9em;
+}
+
+.ethical-rtd {
+    display: none;
+}
