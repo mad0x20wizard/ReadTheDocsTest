@@ -13,5 +13,5 @@
 }
 
 a.icon-home::before {
-  content: url("_images/moon.png") !important
+  content: url("_static/moon.png") !important
 }
