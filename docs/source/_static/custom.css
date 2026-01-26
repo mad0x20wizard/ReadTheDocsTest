@@ -11,3 +11,7 @@
 .ethical-rtd {
     display: none;
 }
+
+a.icon-home::before {
+  content: url("_images/moon.png") !important
+}
