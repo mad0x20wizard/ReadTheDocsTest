@@ -1,6 +1,8 @@
 Template for the Read the Docs tutorial
 =======================================
 
+|Build Status Docs|
+
 SessionMonitor
 --------------
 
@@ -21,3 +23,7 @@ term (up to a line of text)
 
 next term
    Description.
+
+.. |"Build Status Docs"| image:: https://readthedocs.org/projects/desomnia/badge/?version=latest
+   :target: https://ledfx.readthedocs.io/
+   :alt: Documentation Status
