@@ -1,6 +1,11 @@
 Template for the Read the Docs tutorial
 =======================================
 
+SessionMonitor
+--------------
+
+:OS: 🪟 *Windows-only*
+
 This GitHub template includes fictional Python library
 with some basic Sphinx docs.
 
